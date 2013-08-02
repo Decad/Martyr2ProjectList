@@ -12,16 +12,19 @@
 
 char* strrev(char* str){
     char tmp;
+    int i = 0;
+
     // Don't count terminating char to leave it at the end
     size_t len = strlen(str) - 1;
 
     //swap the first and last chars using tmp, stop at the middle
-    for (int i = 0; i < len / 2; ++i)
+    do
     {
         tmp = str[i];
         str[i] = str[len - i];
         str[len - i] = tmp;
-    }
+        ++i;
+    } while ( i <= len / 2 );
 
     return str;
 }
