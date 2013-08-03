@@ -18,7 +18,7 @@
 
 [ ] Country from IP Lookup – Enter an IP address and find the country that IP is registered in.
 
-[ ] Whois Search Tool – Enter an IP or host address and have it look it up through whois and return the results to you.
+[x] Whois Search Tool – Enter an IP or host address and have it look it up through whois and return the results to you.
 
 [ ] Zip / Postal Code Lookup – Enter a zip or postal code and have it return which city/cities that are in that zip code.
 
